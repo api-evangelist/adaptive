@@ -1,20 +1,85 @@
 aid: adaptive
 name: Adaptive
-description: Adaptive is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Adaptive is an AI-native project accounting platform for the construction industry, backed
+  by Andreessen Horowitz (a16z). The product automates the money side of running construction jobs: accounts
+  payable and bill capture, owner and subcontractor billing, change orders, lien waivers and compliance,
+  draws, work-in-progress (WIP) reporting, and cash-flow forecasting. Adaptive packages this as a set
+  of purpose-built AI "clerk" and analyst agents (AP Clerk, Billing Clerk, Change Order Clerk, Compliance,
+  Field Coordinator, Forecasting Analyst, WIP Analyst) that work alongside a project accountant, and it
+  integrates with construction and accounting systems such as Procore and QuickBooks. Adaptive is a SaaS
+  application rather than a public API provider; as of this profile it publishes no public developer API,
+  OpenAPI, or SDKs, but it does maintain a public product changelog, a help center, and a Vanta trust
+  center. This profile was surfaced as an a16z portfolio company and enriched by the API Evangelist pipeline
+  from public sources.'
 url: https://raw.githubusercontent.com/api-evangelist/adaptive/refs/heads/main/apis.yml
 x-type: company
 x-source: a16z-portfolio
-x-tier: stub
+x-tier: profiled
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+image: https://www.adaptive.build/og-default.png
 tags:
 - Company
+- Construction
+- Accounting
+- Project Accounting
+- Construction Finance
+- Accounts Payable
+- AI Agents
+- SaaS
+- Fintech
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/adaptive-domain-security.yml
+- type: Website
+  url: https://www.adaptive.build/
+- type: HelpCenter
+  url: https://help.adaptive.build/en/
+- type: Blog
+  url: https://www.adaptive.build/blog
+- type: Pricing
+  url: https://www.adaptive.build/pricing
+- type: SignUp
+  url: https://www.adaptive.build/demo
+- type: TermsOfService
+  url: https://www.adaptive.build/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.adaptive.build/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/adaptivezoning
+- type: TrustCenter
+  url: https://app.vanta.com/adaptive.build/trust/xpiqmk7fyckawjw8ds51w1
+- type: ChangeLog
+  url: https://www.adaptive.build/product-updates
+- type: LLMsTxt
+  url: llms/adaptive-llms.txt
+- type: ChangeLog
+  url: changelog/adaptive-changelog.yml
+- type: StatusPage
+  url: https://status.adaptive.build
+- type: Lifecycle
+  url: lifecycle/adaptive-lifecycle.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
