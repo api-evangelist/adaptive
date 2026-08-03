@@ -1,0 +1,48 @@
+generated: '2026-07-17'
+method: searched
+source: https://www.adaptive.build/product-updates
+name: Adaptive Product Updates
+scheme: date-based
+versioning: none
+notes: >-
+  Adaptive publishes a rolling, date-grouped product changelog (grouped by
+  month) for its construction project-accounting SaaS. There is no semantic
+  version scheme; entries are continuous product releases. No breaking-change
+  labels are published. This is an application changelog, not a public API
+  changelog (Adaptive publishes no public developer API).
+current_version: rolling
+entries:
+- period: '2026-07'
+  date: '2026-07'
+  breaking: false
+  highlights:
+  - AI Auto-Split for Forwarded Bills and Expenses
+  - Bill Amount on Lien Waiver Templates
+  - New Bill Approval Criteria for Linked POs
+  - 'Procore: Pending and Approved Change Orders'
+  - Change Order Preview PDFs
+  - Partially Paid Status and Open Balance for Draws
+- period: '2026-06'
+  date: '2026-06'
+  breaking: false
+  highlights:
+  - Cost Code and Account Tags in Dropdowns
+  - Pin Your Favorite Features
+  - Accounting Data Section in the Sidebar
+  - Resizable Table Columns
+  - Draws and Change Orders Pages
+  - Active/Inactive Vendors
+  - Activity Log on Jobs
+  - Line-Level Descriptions on Change Orders
+  - Link Vendor Documents to Jobs
+  - Table View for Items
+- period: '2026-05'
+  date: '2026-05'
+  breaking: false
+  highlights:
+  - Tighter Access Controls on Automations
+  - 'Chat Improvements: Rename Threads and Agent-Specific UX'
+  - Created By Column and Filter on Payments
+  - Fully Sticky Filter Section
+  - Draw Export Improvements
+  - Multi-Row Selection Indicator

@@ -1,0 +1,22 @@
+generated: '2026-07-17'
+method: searched
+source: https://status.adaptive.build
+notes: >-
+  Adaptive is a SaaS application, not a public API provider, so there is no
+  public API versioning or deprecation policy to capture. What it does publish
+  operationally is a hosted status page (Instatus) and a rolling, date-grouped
+  product changelog. Versioning is continuous/date-based with no semantic
+  version scheme and no published deprecation or sunset policy.
+versioning:
+  scheme: date-based
+  current: rolling
+  docs: https://www.adaptive.build/product-updates
+deprecation:
+  policy_url: null
+  sunset_header: false
+sla:
+  url: null
+  uptime_target: null
+status_page: https://status.adaptive.build
+changelog: https://www.adaptive.build/product-updates
+deprecated_operations: []
