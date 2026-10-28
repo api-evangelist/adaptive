@@ -64,6 +64,88 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Adaptive is a company surfaced as a portfolio company of a16z and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Adaptive is an AI-native project accounting platform for the construction industry, backed by Andreessen Horowitz (a16z). The product automates the money side of running construction jobs: accounts payable and bill capture, owner and subcontractor billing, change orders, lien waivers and compliance, draws, work-in-progress (WIP) reporting, and cash-flow forecasting. Adaptive packages this as a set of purpose-built AI "clerk" and analyst agents (AP Clerk, Billing Clerk, Change Order Clerk, Compliance, Field Coordinator, Forecasting Analyst, WIP Analyst) that work alongside a project accountant, and it integrates with construction and accounting systems such as Procore and QuickBooks. Adaptive is a SaaS application rather than a public API provider; as of this profile it publishes no public developer API, OpenAPI, or SDKs, but it does maintain a public product changelog, a help center, and a Vanta trust center. This profile was surfaced as an a16z portfolio company and enriched by the API Evangelist pipeline from public sources.
 
-Source: portfolio company of [a16z](https://github.com/api-evangelist/a16z)
+**Areas:** Company · Construction · Accounting · Project Accounting · Construction Finance · Accounts Payable · AI Agents · Software-as-a-Service · Fintech
+
+## Adaptive on APIs.io
+
+Everything profiled for Adaptive is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/adaptive/](https://apis.io/providers/adaptive/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Adaptive Domain Security](https://apis.io/security/adaptive/adaptive-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.adaptive.build/)
+- [Pricing](https://www.adaptive.build/pricing)
+- [Sign up](https://www.adaptive.build/demo)
+- [Changelog](https://www.adaptive.build/product-updates)
+- [Blog](https://www.adaptive.build/blog)
+- [Trust centre](https://app.vanta.com/adaptive.build/trust/xpiqmk7fyckawjw8ds51w1)
+- [Terms of service](https://www.adaptive.build/terms-of-service)
+- [Privacy policy](https://www.adaptive.build/privacy-policy)
+- [GitHub](https://github.com/adaptivezoning)
+- [Status](https://status.adaptive.build)
+
+## API Evangelist rating
+
+**Kin Score 19.1** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 44.7 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/adaptive/](https://apis.io/providers/adaptive/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Adaptive: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/adaptive/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
